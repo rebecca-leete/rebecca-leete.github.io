@@ -1,4 +1,8 @@
 body {
     background-color: #ffff99;
-    font-family: fantasy;
+    font-family: Trebuchet;
+}
+
+.secondary {
+    color: #663300;
 }
