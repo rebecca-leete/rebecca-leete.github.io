@@ -24,3 +24,8 @@ a:visited {
 .centertext {
     text-align: center;
 }
+
+header {
+    background-image: url("http://eskipaper.com/images/wood-wallpaper-23.jpg");
+    background-color: #d9b38c;
+}
