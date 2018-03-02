@@ -17,4 +17,10 @@ a:link {
     text-decoration: none; 
 }
 
+a:visited {
+    color: #666633;
+}
 
+.centertext {
+    text-align: center;
+}
