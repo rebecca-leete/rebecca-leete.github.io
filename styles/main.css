@@ -11,3 +11,10 @@ body {
 h3 {
     color: #603f1f;
 }
+
+a:link {
+    color: #603f1f;
+    text-decoration: none; 
+}
+
+
