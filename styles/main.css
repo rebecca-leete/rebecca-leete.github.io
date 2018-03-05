@@ -2,7 +2,6 @@ body {
     background-color: #d9b38c;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #3a2613;
-    margin: 0;
 }
 
 .secondary {
@@ -29,5 +28,5 @@ a:visited {
 header {
     background-image: url("http://eskipaper.com/images/wood-wallpaper-23.jpg");
     padding: 50px 25px 10px;
-    color: black;
+    color: #271a0c;
 }
