@@ -44,10 +44,10 @@ nav ul {
     z-index: 1;
     top: 0;
     left: 0;
-    background-image: url("/Users/rebeccaleete/Desktop/images/wood-nav-button.jpeg");
+    background-image: url("https://drive.google.com/drive/folders/1807Rlf05mM5z_XX7Cgj2FYypTD36ZMUN");
     opacity: 0.5;
     overflow-x: hidden;
-    padding-top: 25px;
+    padding-top: 250px;
 }
 
 nav ul ui a {
