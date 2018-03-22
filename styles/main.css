@@ -37,7 +37,7 @@ header {
     text-align: center;
 }
 
-.sidenav {
+nav ul {
     width: 200px;
     height: 100%;
     position: fixed;
@@ -50,7 +50,7 @@ header {
     padding-top: 25px;
 }
 
-.sidenav a {
+nav ul ui a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -58,7 +58,7 @@ header {
     display: block;
 }
 
-sidenav a:hover {
+nav ul ui a:hover {
     text-decoration: underline;
     transition: 0.3s;
     opacity: 1.0;
