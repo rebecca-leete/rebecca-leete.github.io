@@ -43,7 +43,6 @@ nav ul {
     width: 200px;
     height: 100%;
     margin:0;
-    padding: 
     position: fixed;
     z-index: 1;
     top: 0;
@@ -51,18 +50,14 @@ nav ul {
     background-image: url("https://wallpaperscraft.ru/image/derevo_tekstura_doska_36573_602x339.jpg");
     opacity: 0.5;
     overflow-x: hidden;
-    padding-top: 250px;
-}
-
-nav ul ui {
-    color: #ffffff;
+    padding-top: 25px;
 }
 
 nav ul ui a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #ffffff;
+    color: #3a2613;
     display: block;
 }
 
