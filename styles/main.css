@@ -38,12 +38,14 @@ header {
 .intro {
     font-size: 24;
     text-align: center;
+    padding: 0px, 0px, 0px, 200px;
 }
 
 nav ul {
     width: 200px;
     height: 100%;
     margin:0;
+    position: fixed;
     top: 0;
     left: 0;
     background-image: url("https://wallpaperscraft.ru/image/derevo_tekstura_doska_36573_602x339.jpg");
@@ -67,7 +69,3 @@ nav ul ui a:hover {
     opacity: 1.0;
 }
 
-p {
-    padding: 0px, 0px, 0px, 200px;
-    position: relative;
-}
