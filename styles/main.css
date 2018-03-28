@@ -28,6 +28,8 @@ a:visited {
 header {
     background-image: url("http://eskipaper.com/images/wood-wallpaper-23.jpg");
     margin: 0;
+    width: 100%;
+    z-index: 1000;
     padding: 50px 25px 10px;
     color: #271a0c;
 }
@@ -40,6 +42,8 @@ header {
 nav ul {
     width: 200px;
     height: 100%;
+    margin:0;
+    padding: 
     position: fixed;
     z-index: 1;
     top: 0;
@@ -48,6 +52,10 @@ nav ul {
     opacity: 0.5;
     overflow-x: hidden;
     padding-top: 250px;
+}
+
+nav ul ui {
+    color: #ffffff;
 }
 
 nav ul ui a {
