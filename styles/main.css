@@ -28,7 +28,6 @@ a:visited {
 header {
     background-image: url("http://eskipaper.com/images/wood-wallpaper-23.jpg");
     margin: 0;
-    position: fixed;
     width: 100%;
     z-index: 5;
     padding: 50px 25px 10px;
@@ -44,7 +43,6 @@ nav ul {
     width: 200px;
     height: 100%;
     margin:0;
-    position: fixed;
     top: 0;
     left: 0;
     background-image: url("https://wallpaperscraft.ru/image/derevo_tekstura_doska_36573_602x339.jpg");
