@@ -29,7 +29,7 @@ header {
     background-image: url("http://eskipaper.com/images/wood-wallpaper-23.jpg");
     margin: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 5;
     padding: 50px 25px 10px;
     color: #271a0c;
 }
@@ -51,6 +51,7 @@ nav ul {
     opacity: 0.5;
     overflow-x: hidden;
     padding-top: 25px;
+    float: left;
 }
 
 nav ul ui a {
@@ -65,4 +66,8 @@ nav ul ui a:hover {
     text-decoration: underline;
     transition: 0.3s;
     opacity: 1.0;
+}
+
+p {
+    padding: 0px, 0px, 0px, 200px;
 }
