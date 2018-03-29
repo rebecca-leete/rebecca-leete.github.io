@@ -29,7 +29,6 @@ header {
     background-image: url("http://eskipaper.com/images/wood-wallpaper-23.jpg");
     margin: 0;
     width: 100%;
-    position: fixed;
     padding: 50px 25px 10px;
     color: #271a0c;
 }
@@ -40,29 +39,23 @@ header {
     padding: 0px, 0px, 0px, 200px;
 }
 
-nav ul {
+nav {
     width: 200px;
     height: 100%;
-    margin:0;
-    position: fixed;
-    top: 0;
-    left: 0;
     background-image: url("https://wallpaperscraft.ru/image/derevo_tekstura_doska_36573_602x339.jpg");
     opacity: 0.5;
-    overflow-x: hidden;
     padding-top: 25px;
     float: left;
 }
 
-nav ul ui a {
+a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: #3a2613;
-    display: block;
 }
 
-nav ul ui a:hover {
+a:hover {
     text-decoration: underline;
     transition: 0.3s;
     opacity: 1.0;
