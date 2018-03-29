@@ -63,3 +63,9 @@ a:hover {
 .page-content {
     padding: 0px, 20px;
 }
+
+.dinosaur {
+    width: 450px;
+    height: 400px;
+    align: center; 
+}
