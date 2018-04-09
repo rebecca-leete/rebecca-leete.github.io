@@ -48,6 +48,7 @@ nav {
     background-repeat: repeat-y;
     padding-top: 25px;
     float: left;
+    margin: 0px, 10px, 0px, 0px;
 }
 
 a {
