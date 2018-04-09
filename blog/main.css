@@ -1,8 +1,65 @@
 body {
-    background-color:burlywood;
-    font-family: Trebuchet;
+    background-color: #d9b38c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3a2613;
 }
 
 .secondary {
-    color: #663300;
+    color: #271a0c;
+}
+
+h3 {
+    color: #603f1f;
+}
+
+a:link {
+    color: #603f1f;
+    text-decoration: none; 
+}
+
+a:visited {
+    color: #ffeecc;
+}
+
+.centertext {
+    text-align: center;
+}
+
+header {
+    background-image: url("http://eskipaper.com/images/wood-wallpaper-23.jpg");
+    margin: 0;
+    width: 100%;
+    padding: 50px 25px 10px;
+    color: #271a0c;
+}
+
+.intro {
+    font-size: 24px;
+    text-align: center;
+    padding: 0px, 20px;
+}
+
+nav {
+    width: 200px;
+    height: 100%;
+    background-image: url("https://wallpaperscraft.ru/image/derevo_tekstura_doska_36573_602x339.jpg");
+    padding-top: 25px;
+    float: left;
+}
+
+a {
+    padding: 6px 8px 6px 16px;
+    font-size: 25px;
+    color: #3a2613;
+    text-align: left;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+    color: #3a2613;
+}
+
+.page-content {
+    padding: 0px, 20px;
 }
