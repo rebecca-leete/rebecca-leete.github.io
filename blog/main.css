@@ -2,6 +2,13 @@
     border: 1px solid black !important;
   }
 
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
 .grid {
     margin: 0 auto;
     max-width: 1200px;
@@ -38,7 +45,6 @@ nav {
     width: 200px;
     height: 100%;
     background-image: url("https://wallpaperscraft.ru/image/derevo_tekstura_doska_36573_602x339.jpg");
-    background-repeat: repeat-y;
     padding-top: 25px;
     float: left;
     margin: 0px, 10px, 0px, 0px;
