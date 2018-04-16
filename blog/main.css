@@ -1,7 +1,47 @@
+* {
+    border: 1px solid black !important;
+  }
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 90%;
+  }
+  
+  .col-1 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+  }
+
+  .col-2 {
+      height: 100%;
+      width: 75%;
+      display: flex;
+  }
+
 body {
     background-color: #d9b38c;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #3a2613;
+}
+
+header {
+    background-image: url("http://eskipaper.com/images/wood-wallpaper-23.jpg");
+    margin: 0;
+    width: 100%;
+    padding: 50px 25px 10px;
+    color: #271a0c;
+}
+
+nav {
+    width: 200px;
+    height: 100%;
+    background-image: url("https://wallpaperscraft.ru/image/derevo_tekstura_doska_36573_602x339.jpg");
+    background-repeat: repeat-y;
+    padding-top: 25px;
+    float: left;
+    margin: 0px, 10px, 0px, 0px;
 }
 
 .secondary {
@@ -26,14 +66,6 @@ a:visited {
     text-align: center;
 }
 
-header {
-    background-image: url("http://eskipaper.com/images/wood-wallpaper-23.jpg");
-    margin: 0;
-    width: 100%;
-    padding: 50px 25px 10px;
-    color: #271a0c;
-}
-
 .intro {
     font-size: 24px;
     text-align: center;
@@ -41,15 +73,6 @@ header {
     margin: 10px;
 }
 
-nav {
-    width: 200px;
-    height: 100%;
-    background-image: url("https://wallpaperscraft.ru/image/derevo_tekstura_doska_36573_602x339.jpg");
-    background-repeat: repeat-y;
-    padding-top: 25px;
-    float: left;
-    margin: 0px, 10px, 0px, 0px;
-}
 
 a {
     padding: 6px 8px;
