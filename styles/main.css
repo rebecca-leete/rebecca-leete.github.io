@@ -119,11 +119,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
 }
 
 li {
     float: left;
-    display: flex;
 }
 
 li a {
