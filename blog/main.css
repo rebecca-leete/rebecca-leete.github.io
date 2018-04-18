@@ -84,11 +84,6 @@ header {
     color: #271a0c;
 }
 
-nav {
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/61/49/7657a74e84f3672.jpg");
-    padding-top: 25px;
-}
-
 .secondary {
     color: #271a0c;
 }
@@ -104,7 +99,7 @@ a:link {
 }
 
 a:visited {
-    color: #ffeecc;
+    color: #daeec3;;
 }
 
 .centertext {
@@ -118,19 +113,29 @@ a:visited {
     margin: 10px;
 }
 
+ul {
+    list-style-type: none;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/61/49/7657a74e84f3672.jpg");
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
-a {
-    padding: 6px 8px;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
     font-size: 25px;
-    color: #3a2613;
-    text-align: left;
-    display: flex;
+    color: #ffeecc;
+    text-align: center;
+    padding: 16px;
 }
 
 a:hover {
     text-decoration: underline;
     transition: 0.3s;
-    color: #3a2613;
 }
 
 .page-content {
