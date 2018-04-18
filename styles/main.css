@@ -1,28 +1,79 @@
+* {
+    border: 1px solid black !important;
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 90%;
+  }
+
+  .row {
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+  }
+  
+  .col-1 {
+    width: 8.33%;
+  }
+  
+  .col-2 {
+    width: 16.66%;
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-4 {
+    width: 33.33%;
+  }
+  
+  .col-5 {
+    width: 41.66%;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  
+  .col-7 {
+    width: 58.33%;
+  }
+  
+  .col-8 {
+    width: 66.66%;
+  }
+  
+  .col-9 {
+    width: 75%;
+    height: 200px;
+  }
+  
+  .col-10 {
+    width: 83.33%;
+  }
+  
+  .col-11 {
+    width: 91.66%;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+
 body {
     background-color: #d9b38c;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #3a2613;
-}
-
-.secondary {
-    color: #271a0c;
-}
-
-h3 {
-    color: #603f1f;
-}
-
-a:link {
-    color: #603f1f;
-    text-decoration: none; 
-}
-
-a:visited {
-    color: #ffeecc;
-}
-
-.centertext {
-    text-align: center;
 }
 
 header {
@@ -33,33 +84,62 @@ header {
     color: #271a0c;
 }
 
+.secondary {
+    color: #271a0c;
+}
+
+h3 {
+    color: #603f1f;
+    margin: 10px;
+}
+
+a:link {
+    color: #603f1f;
+    text-decoration: none; 
+}
+
+a:visited {
+    color: #daeec3;;
+}
+
+.centertext {
+    text-align: center;
+}
+
 .intro {
     font-size: 24px;
     text-align: center;
     padding: 0px, 20px;
+    margin: 10px;
 }
 
-nav {
-    width: 200px;
-    height: 100%;
-    background-image: url("https://wallpaperscraft.ru/image/derevo_tekstura_doska_36573_602x339.jpg");
-    padding-top: 25px;
+ul {
+    list-style-type: none;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/61/49/7657a74e84f3672.jpg");
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
     float: left;
 }
 
-a {
-    padding: 6px 8px 6px 16px;
+li a {
+    display: block;
     font-size: 25px;
-    color: #3a2613;
-    text-align: left;
+    color: #ffeecc;
+    text-align: :right;
+    padding: 16px;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #daeec3;
     transition: 0.3s;
-    color: #3a2613;
 }
 
 .page-content {
-    padding: 0px, 20px;
+    margin: 10px;
+    margin-bottom: 15px;
 }
