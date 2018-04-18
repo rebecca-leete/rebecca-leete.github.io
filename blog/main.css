@@ -124,6 +124,7 @@ a {
     font-size: 25px;
     color: #3a2613;
     text-align: left;
+    display: flex;
 }
 
 a:hover {
