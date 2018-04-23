@@ -39,12 +39,11 @@ header {
     padding: 0px, 20px;
 }
 
-nav {
-    width: 200px;
-    height: 100%;
+.nav {
+    width: 100%;
     background-image: url("https://wallpaperscraft.ru/image/derevo_tekstura_doska_36573_602x339.jpg");
     padding-top: 25px;
-    float: left;
+    overflow: hidden;
 }
 
 a {
