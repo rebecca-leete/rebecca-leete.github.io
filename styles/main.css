@@ -1,16 +1,15 @@
 /*  Page Header  */
 
+body {
+  background-color: #E5E4D2
+}
+
 #header {
   background-color:	#9AC7CA;
   color: #2F2725;
 }
 
-.four.columns {
-  background-color: #E5E4D2;
-  margin: 0;
-}
-
-.nav a {
+a {
   text-align: center;
   color: #2F2725;
 }
