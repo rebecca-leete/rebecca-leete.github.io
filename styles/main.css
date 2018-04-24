@@ -11,7 +11,10 @@ body {
   padding: 12px;
   padding-bottom: 5px;
   padding-top: 65px;
-  
+}
+
+.one-third.column {
+  text-align: center;
 }
 
 a {
@@ -21,17 +24,20 @@ a {
   font-size: 20px;
 }
 
-
-
-
 .intro {
   vertical-align: bottom;
+  text-align: center;
+  padding: 10%;
+  padding-top: 30%;
+  padding-bottom: 30px;
 }
 
 #intro {
-  background-image: url("../images/irene-davila-45779-unsplash.jpg");
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("../images/irene-davila-45779-unsplash.jpg");
   background-size: 100%;
-  background-repeat: 0;
   color: aliceblue;
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
