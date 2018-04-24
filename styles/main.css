@@ -5,8 +5,13 @@ body {
 }
 
 #header {
+  font-family: 'Montserrat', sans-serif;
   background-color:	#9AC7CA;
   color: #2F2725;
+  padding: 12px;
+  padding-bottom: 5px;
+  padding-top: 65px;
+  
 }
 
 a {
@@ -17,10 +22,14 @@ a {
 
 
 
+.intro {
+  vertical-align: bottom;
+}
 
-
-.intro{
+#intro {
   background-image: url("../images/irene-davila-45779-unsplash.jpg");
+  background-size: 100%;
+  background-repeat: 0;
   color: aliceblue;
 }
 
