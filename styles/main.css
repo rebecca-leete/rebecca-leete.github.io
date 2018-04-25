@@ -47,6 +47,7 @@ a {
 
 .one-half.column {
   margin: 0;
+  margin-bottom: 35px;
 }
 
 .blog-thumbnail {
@@ -56,5 +57,9 @@ a {
 
 .thumbnail-title {
   margin-bottom: 3px;
+  margin-left: 5px;
 }
 
+.thumbnail-blurb {
+  margin-left: 5px;
+}
