@@ -141,5 +141,6 @@ a {
 /*BLOG POST PAGES  */
 
 #page-content {
-  margin: 50px;
+  padding: 50px;
+  text-align: justify;
 }
