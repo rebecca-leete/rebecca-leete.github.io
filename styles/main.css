@@ -77,3 +77,24 @@ a {
 
 /*  BLOG ARCHIVE PAGES  */
 
+#nav {
+  margin-bottom: 15px;
+}
+
+#archives-title {
+  background: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url("../images/irene-davila-45779-unsplash.jpg");
+  background-size: 100%;
+  color: aliceblue;
+  font-family: 'Amatic SC', cursive;
+  font-size: 70px;
+}
+
+.tech-archives-title {  
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
