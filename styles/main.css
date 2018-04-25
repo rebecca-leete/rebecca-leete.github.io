@@ -81,7 +81,7 @@ a {
   margin-bottom: 15px;
 }
 
-#archives-title {
+#page-title {
   background: linear-gradient(
     rgba(20,20,20, .5), 
     rgba(20,20,20, .5)),
@@ -125,4 +125,17 @@ a {
   margin-right: 30px;
   font-size: 18px;
   text-align: justify;
+}
+
+.text-link {
+  text-decoration: none;
+}
+
+
+
+
+/*BLOG POST PAGES  */
+
+#page-content {
+  margin: 50px;
 }
