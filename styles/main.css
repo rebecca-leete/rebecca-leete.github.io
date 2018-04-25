@@ -98,3 +98,17 @@ a {
   margin: 0;
   padding: 10px;
 }
+
+#tech-1-title {
+  background: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url("http://via.placeholder.com/570x300");
+  background-size: 100%;
+  color: aliceblue;
+}
+
+.blog-post-title {
+  padding: 20%;
+  text-align: center;
+}
