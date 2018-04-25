@@ -44,48 +44,56 @@
 
 
   <div id="page-content" class="row">
-    <h3 class="centertext">CSS, HTML and DOM walk into a bar...</h3>
-        <img src="https://i.ebayimg.com/images/g/IWwAAOSwzrxUy1au/s-l1600.jpg" alt="dinosaur" style="width:450px; height:450px;
-        float:right;">
-      <p class="page-content">
-        CSS (Cascading Style Sheets), HTML (HyperText Markup Language) and DOM (Document Object Model)
-        are all pretty key parts in putting together a web page. When I was a kid my mum used to get me these little wooden
-        dinosaurs that I got to put together and paint, and they were awesome, I loved them. The ankylosaurus was my fave. 
-        But the CSS, HTML and DOM create a webpage in the same way that I created these dinosaurs. When I opened the packet,
-        I had a set of plain unassembled wooden pieces - arms, legs, heads, tails, etc - and a row of little paints. The HTML
-        is like the plain wooden limbs: they make up the content of the toy, and contain everything you need for a fully-
-        functional wooden dinosaur. The paints aren't strictly necessary, they're cosmetic, but they help a great deal in 
-        making the dinosaur actually <em>look like</em> a dinosaur. And the DOM is the set of instructions that guides you how
-        paint the little wooden pieces and slot them together so the arms and legs are in the right space. The end product 
-        isn't guaranteed to look exactly like the instructions suggest - the browser may detect and correct an error in the DOM 
-        in the same way mini-me might have noticed a typo or misprinted diagram in the instructions and been able to interpret 
-        what the next step is. And also like mini-me, if the error in the DOM is too big or unrecognisable, you're just going 
-        to end up with a broken or awkward dinosaur :(
-      </p>
+      <h3 class="centertext">CSS, HTML and DOM walk into a bar...</h3>
+        <div class="twelve columns">
+            <img src="https://i.ebayimg.com/images/g/IWwAAOSwzrxUy1au/s-l1600.jpg" alt="dinosaur" style="float: right; width:33%; padding: 10px;">
+          <p>
+            CSS (Cascading Style Sheets), HTML (HyperText Markup Language) and DOM (Document Object Model)
+            are all pretty key parts in putting together a web page. When I was a kid my mum used to get me these little wooden
+            dinosaurs that I got to put together and paint, and they were awesome, I loved them. The ankylosaurus was my fave. 
+            But the CSS, HTML and DOM create a webpage in the same way that I created these dinosaurs. When I opened the packet,
+            I had a set of plain unassembled wooden pieces - arms, legs, heads, tails, etc - and a row of little paints. The HTML
+            is like the plain wooden limbs: they make up the content of the toy, and contain everything you need for a fully-
+            functional wooden dinosaur. The paints aren't strictly necessary, they're cosmetic, but they help a great deal in 
+            making the dinosaur actually <em>look like</em> a dinosaur. And the DOM is the set of instructions that guides you how
+            paint the little wooden pieces and slot them together so the arms and legs are in the right space. The end product 
+            isn't guaranteed to look exactly like the instructions suggest - the browser may detect and correct an error in the DOM 
+            in the same way mini-me might have noticed a typo or misprinted diagram in the instructions and been able to interpret 
+            what the next step is. And also like mini-me, if the error in the DOM is too big or unrecognisable, you're just going 
+            to end up with a broken or awkward dinosaur :(
+          </p>
+        </div>
+  </div>
 
+  <div id="page-content" class="row">
+    <div class="twelve columns">
+      <h3 class="centertext">Boxifying Design</h3>
+        <p>
+          Every webpage is made up of boxes. The way each element of the page fits together is in the form of boxes that are 
+          either inside, outside or alongside each other. For example, the webpage itself is a box, and within that box is say, 
+          a box containing the page header, and within that is a box for your page title, and a box for your nav - which is again 
+          made up of many links or buttons each in their own box. <br>
+          Understanding this design is super helpful in terms of designing and debugging page layout.
+        </p>
+    </div>
+  </div>
+  
 
-    <h3 class="centertext">Boxifying Design</h3>
-      <p class="page-content">
-        Every webpage is made up of boxes. The way each element of the page fits together is in the form of boxes that are 
-        either inside, outside or alongside each other. For example, the webpage itself is a box, and within that box is say, 
-        a box containing the page header, and within that is a box for your page title, and a box for your nav - which is again 
-        made up of many links or buttons each in their own box. <br>
-        Understanding this design is super helpful in terms of designing and debugging page layout.
-      </p>
-
-
-    <h3 class="centertext">So what is the Box Model?</h3>
-      <p class="page-content">
-        The box model identifies the different kinds of "space" that are part of each html element, all of which ach of these 
-        elements of the box model can be modified in different ways to manage and alter the layout of the webpage differently.<br>
-        These areas are:<br>
-      </p>  
-        <ul>
-          <li><strong>Content:</strong> the meat of the element, the actual content such as text or an image<br></li>
-          <li><strong>Padding:</strong> the room between the content and the "box" it sits in<br></li>
-          <li><strong>Border:</strong> the box that the content sits in, the edge of the space that belongs to the content<br></li>
-          <li><strong>Margin:</strong> the space between boxes that house content<br></li>
-        </ul>
+  <div id="page-content" class="row">
+    <div class="twelve columns">
+        <h3 class="centertext">So what is the Box Model?</h3>
+          <p>
+            The box model identifies the different kinds of "space" that are part of each html element, all of which ach of these 
+            elements of the box model can be modified in different ways to manage and alter the layout of the webpage differently.<br>
+            These areas are:<br>
+          </p>  
+            <ul>
+              <li><strong>Content:</strong> the meat of the element, the actual content such as text or an image<br></li>
+              <li><strong>Padding:</strong> the room between the content and the "box" it sits in<br></li>
+              <li><strong>Border:</strong> the box that the content sits in, the edge of the space that belongs to the content<br></li>
+              <li><strong>Margin:</strong> the space between boxes that house content<br></li>
+            </ul>
+    </div>
   </div>
 
 </body>
