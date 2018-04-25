@@ -24,6 +24,8 @@ a {
   font-size: 20px;
 }
 
+/*  Page Content  */
+
 .intro {
   vertical-align: bottom;
   text-align: center;
@@ -34,12 +36,17 @@ a {
 
 #intro {
   background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
-                     url("../images/irene-davila-45779-unsplash.jpg");
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url("../images/irene-davila-45779-unsplash.jpg");
   background-size: 100%;
   color: aliceblue;
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
 }
+
+.one-half.column {
+  margin: 0;
+}
+
 
