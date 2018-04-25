@@ -49,4 +49,7 @@ a {
   margin: 0;
 }
 
-
+.blog-thumbnail {
+  padding-top: 30px;
+  padding-left: 30px;
+}
