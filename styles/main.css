@@ -156,7 +156,7 @@ a {
   background: linear-gradient(
     rgba(20,20,20, .5), 
     rgba(20,20,20, .5)),
-    url("../images/sunrise.jpg");
+    url("../images/buddha.png");
   background-size: 100%;
   background-position: center;
 }
@@ -198,4 +198,9 @@ a {
   padding-left: 30px;
   padding-right: 30px;
   text-align: center;
+}
+
+.horizontal {
+  display: inline;
+  padding-right: 30px;
 }
