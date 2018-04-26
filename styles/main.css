@@ -108,13 +108,57 @@ a {
   padding-top: 25px;
 }
 
-#blog-post-thumbnail {
+#tech-1-thumbnail-img {
   background: linear-gradient(
     rgba(20,20,20, .5), 
     rgba(20,20,20, .5)),
-    url("http://via.placeholder.com/470x250");
+    url("../images/clock.jpg");
   background-size: 100%;
-  color: aliceblue;
+  background-position: center;
+}
+
+#tech-2-thumbnail-img {
+  background: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url("../images/bird-nest.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
+#tech-3-thumbnail-img {
+  background: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url("../images/spiderweb.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
+#cult-1-thumbnail-img {
+  background: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url("../images/sunrise.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
+#cult-2-thumbnail-img {
+  background: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url("../images/mushroom.jpg!d");
+  background-size: 100%;;
+}
+
+#cult-3-thumbnail-img {
+  background: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url("../images/sunrise.jpg");
+  background-size: 100%;
+  background-position: center;
 }
 
 #tech-1-contents {
@@ -124,6 +168,7 @@ a {
 .tech-1-title {
   padding: 17%;
   text-align: center;
+  color: aliceblue;
 }
 
 .blog-post-blurb {
