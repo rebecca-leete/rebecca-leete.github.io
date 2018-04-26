@@ -1,82 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>
-        Technical Blog pt 2 </title>
+    <title>Rebecca's Blog</title>
     <meta charset="UTF-8">
-    
-  <link href="../styles/main.css" rel="stylesheet" type="text/css"/>
-</head>
-
-<body>
-  <div class="grid">
-    <div class="row">
-      <header>
-          <h1 class="secondary">Rebecca's Blog</h1>
-          <h2 class="secondary">The adventures of a green dev student</h2>
-      </header>
-    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway" rel="stylesheet">
+  </head>
   
+  
+  
+  <body>
 
-    <div class="row">
-      <div class="col-3">
-        <nav>
-          <ul>
-            <li><a href="../index.html">Home</a><br></li>
-            <li><a href="./c1-time-and-habits-blog.html">Time and Habits Blog</a></li>
-            <li><a href="./c1-reflection-blog.html">Cultural Blog</a></li>
-            <li><a href="./t2-html-css-dom-p1.html">Technical Blog</a></li>
-            <li><a href="./c2-emotional-intelligence.html">Cultural Blog II</a></li>
-          </ul>
-        </nav>
+      <div id="header" class="row"> 
+        <div id="header" class="twelve columns">
+            <div class="header">
+              <h1><strong>Rebecca's Blog</strong></h1>
+              <h3>The adventures of a green dev student</h3>
+            </div>
+        </div>
       </div>
-    </div>
 
-    <div class="col-9">
-      <h3 class="centertext">
-        Grid-based Design!
-      </h3>
-      <p class="page-content">
-        Grid-based design is simultaneously one of the basic and master tools of 
-        any web-dev. It's a way of splitting up the webpage into a series of rows,
-         spanning the length of the page, and within these rows dividing the space 
-        into columns, effectively creating a chess board of options for you to lay 
-        out your content.
-      </p>
-      <h3 class="centertext">
-        Why responsive webpages are gold
-      </h3>
-      <p class="page-content">
-         The extent and nature of the internet's accessibility has grown drastica
-         lly in the last 10 years or so. No longer is it only reached through a 
-         chunky PC and noisy dial up. Here and now, people are connected to the in
-         ternet almost continuously, through all sorts of devices - PCs, laptops, 
-         notebooks, tablets, smart phones. The great thing about responsive webpages 
-         is that they are designed to have flexible display options so that they look 
-         great and work well on so many different screen sizes. Responsive webpages 
-         are worth looking into because they enable the developer to choose which 
-         elements stay on the page and where, whilst maintaining a professional 
-         aesthetic and smooth user interface.
-      </p>
-      <h3 class="centertext">
-        Semantic Structure
-      </h3>
-      <p class="page-content">
-        In html, as we know, we have tags to divide and define the different elements
-         in a webpage. The word semantic, in linguistics (BA student hollaa), literal
-         ly just means "meaning." It transfers pretty well in html - semantic structu
-         re simply refers to the practice of organising your page elements by tags 
-         that actually <strong>define</strong> the content. Instead of using generic 
-         tags like <span style="font-family: 'Courier New', Courier, monospace"><strong>div</strong></span> 
-         and class, we can use specific tags such as <span style="font-family: 'Courier New', Courier, monospace"><strong>header, nav, footer, article,</strong></span>
-          etc.
-        </p>
-    </div>
+    
+      <div id="nav" class="row">
+          <div class="one-third column">
+              <a href="../index.html">Home</a>
+          </div>
+          
+          <div class="one-third column">
+              <a href="./tech-blog-archives.html">Technical Blogs</a>
+              </div>
+              <div class="one-third column">
+              <a href="./cult-blog-archives.html">Cultural Blogs</a>           
+          </div>
+      </div>
+
+      <div id="page-title" class="row">
+        <div class="twelve columns">
+          <h2 class="tech-archives-title">HTML, CSS and the DOM</h2>
+        </div>
+      </div>
 
 
+      <div id="page-content" class="row">
+        <div class="twelve columns">
+          <h3>Nailing Layout</h3>
+          <h3>Grid-based Design!</h3>
+          <p class="page-content">
+            Grid-based design is simultaneously one of the basic and master tools of 
+            any web-dev. It's a way of splitting up the webpage into a series of rows,
+            spanning the length of the page, and within these rows dividing the space 
+            into columns, effectively creating a chess board of options for you to lay 
+            out your content.
+          </p>
+        </div>
+      </div>
 
-  </div>
-</body>  
+
+      <div id="page-content" class="row">
+        <div class="twelve columns">
+          <h3>Why responsive webpages are gold</h3>
+          <p>
+            The extent and nature of the internet's accessibility has grown drastica
+            lly in the last 10 years or so. No longer is it only reached through a 
+            chunky PC and noisy dial up. Here and now, people are connected to the in
+            ternet almost continuously, through all sorts of devices - PCs, laptops, 
+            notebooks, tablets, smart phones. The great thing about responsive webpages 
+            is that they are designed to have flexible display options so that they look 
+            great and work well on so many different screen sizes. Responsive webpages 
+            are worth looking into because they enable the developer to choose which 
+            elements stay on the page and where, whilst maintaining a professional 
+            aesthetic and smooth user interface.
+          </p>
+        </div>
+      </div>
+
+
+      <div id="page-content" class="row">
+        <div class="twelve columns">
+          <h3>Semantic Structure</h3>
+          <p>
+            In html, as we know, we have tags to divide and define the different elements
+            in a webpage. The word semantic, in linguistics (BA student hollaa), literal
+            ly just means "meaning." It transfers pretty well in html - semantic structu
+            re simply refers to the practice of organising your page elements by tags 
+            that actually <strong>define</strong> the content. Instead of using generic 
+            tags like <span style="font-family: 'Courier New', Courier, monospace"><strong>div</strong></span> 
+            and class, we can use specific tags such as <span style="font-family: 'Courier New', Courier, monospace"><strong>header, nav, footer, article,</strong></span>
+              etc.
+            </p>
+        </div>
+      </div>
+
+
+
+  </body>  
 </html>
 
     
