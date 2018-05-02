@@ -170,6 +170,15 @@ a {
   background-position: center;
 }
 
+#cult-4-thumbnail-img {
+  background: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url("../images/butterfly.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
 #tech-1-contents {
   padding-left: 30px;
 }
