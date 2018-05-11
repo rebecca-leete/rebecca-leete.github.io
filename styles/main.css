@@ -108,6 +108,29 @@ a {
   padding-top: 25px;
 }
 
+
+
+#tech-1-contents {
+  padding-left: 30px;
+}
+
+.tech-1-title {
+  padding: 17%;
+  text-align: center;
+  color: aliceblue;
+}
+
+.blog-post-blurb {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.text-link {
+  text-decoration: none;
+}
+
+
+/*  BLOG THUMBNAIL IMAGES */
 #tech-1-thumbnail-img {
   background: linear-gradient(
     rgba(20,20,20, .5), 
@@ -179,29 +202,19 @@ a {
   background-position: center;
 }
 
-#tech-1-contents {
-  padding-left: 30px;
-}
-
-.tech-1-title {
-  padding: 17%;
-  text-align: center;
-  color: aliceblue;
-}
-
-.blog-post-blurb {
-  font-size: 18px;
-  text-align: justify;
-}
-
-.text-link {
-  text-decoration: none;
+#cult-5-thumbnail-img {
+  background: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url("../images/lotus.jpg");
+  background-size: 100%;
+  background-position: center;
 }
 
 
 
 
-/*BLOG POST PAGES  */
+/*  BLOG POST PAGES  */
 
 #page-content {
   padding: 50px;
