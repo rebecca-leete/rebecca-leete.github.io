@@ -176,6 +176,16 @@ a {
   background-position: center;
 }
 
+#tech-6-thumbnail-img {
+  background: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url("../images/book.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
+
 #cult-1-thumbnail-img {
   background: linear-gradient(
     rgba(20,20,20, .5), 
